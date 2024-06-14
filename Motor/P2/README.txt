@@ -1,0 +1,1 @@
+Write a C program that controls the spinning direction based on the value of switch SW0.

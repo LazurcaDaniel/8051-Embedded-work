@@ -1,0 +1,2 @@
+Write a C program that displays a multi-digit number, as above, but ignores non-significant digits. For
+example, if the number is 698, display 3 is never turned on (in the previous case, is shows value 0).

@@ -1,0 +1,2 @@
+Write a C program that turns on LED 0, then LED 1, ..., then LED 7. At each moment, a single LED is
+turned on. When LED 7 is reached, the program must go back, by turning on LED 6, then LED 5, ..., and so on.
