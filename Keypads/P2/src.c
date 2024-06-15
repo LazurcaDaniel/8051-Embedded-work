@@ -8,7 +8,7 @@ unsigned char getKeyPressed() {
     unsigned char value = 10;
 
     // Check first column
-    P0 = 0b01110111;
+    P0 = 0b11110111;
     if (P0_6 == 0) {
         value = 1;
     } else if (P0_5 == 0) {
@@ -18,7 +18,7 @@ unsigned char getKeyPressed() {
     }
 
     // Check second column
-    P0 = 0b01111011;
+    P0 = 0b11111011;
     if (P0_6 == 0) {
         value = 4;
     } else if (P0_5 == 0) {
@@ -28,7 +28,7 @@ unsigned char getKeyPressed() {
     }
 
     // Check third column
-    P0 = 0b01111101;
+    P0 = 0b11111101;
     if (P0_6 == 0) {
         value = 7;
     } else if (P0_5 == 0) {
@@ -38,7 +38,7 @@ unsigned char getKeyPressed() {
     }
 
     // Check fourth column
-    P0 = 0b01111110;
+    P0 = 0b11111110;
     if (P0_5 == 0) {
         value = 0;
     }

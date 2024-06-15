@@ -331,8 +331,8 @@ _getKeyPressed:
 	ar0 = 0x00
 ;	.\src.c:8: unsigned char value = 10;
 	mov	r7,#0x0a
-;	.\src.c:11: P0 = 0b01110111;
-	mov	_P0,#0x77
+;	.\src.c:11: P0 = 0b11110111;
+	mov	_P0,#0xf7
 ;	.\src.c:12: if (P0_6 == 0) {
 	jb	_P0_6,00107$
 ;	.\src.c:13: value = 1;
@@ -350,8 +350,8 @@ _getKeyPressed:
 ;	.\src.c:17: value = 3;
 	mov	r7,#0x03
 00108$:
-;	.\src.c:21: P0 = 0b01111011;
-	mov	_P0,#0x7b
+;	.\src.c:21: P0 = 0b11111011;
+	mov	_P0,#0xfb
 ;	.\src.c:22: if (P0_6 == 0) {
 	jb	_P0_6,00115$
 ;	.\src.c:23: value = 4;
@@ -369,8 +369,8 @@ _getKeyPressed:
 ;	.\src.c:27: value = 6;
 	mov	r7,#0x06
 00116$:
-;	.\src.c:31: P0 = 0b01111101;
-	mov	_P0,#0x7d
+;	.\src.c:31: P0 = 0b11111101;
+	mov	_P0,#0xfd
 ;	.\src.c:32: if (P0_6 == 0) {
 	jb	_P0_6,00123$
 ;	.\src.c:33: value = 7;
@@ -388,8 +388,8 @@ _getKeyPressed:
 ;	.\src.c:37: value = 9;
 	mov	r7,#0x09
 00124$:
-;	.\src.c:41: P0 = 0b01111110;
-	mov	_P0,#0x7e
+;	.\src.c:41: P0 = 0b11111110;
+	mov	_P0,#0xfe
 ;	.\src.c:42: if (P0_5 == 0) {
 	jb	_P0_5,00126$
 ;	.\src.c:43: value = 0;

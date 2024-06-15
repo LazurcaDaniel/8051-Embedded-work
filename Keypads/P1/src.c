@@ -3,7 +3,7 @@
 int main(){
     P3 = 0;
     unsigned char value;
-    P0 = 0b01110111;
+    P0 = 0b01110111;///P0_7 = 0, P0_3 = 0
         if(P0_6 == 0){
             value = 1;
         }
@@ -13,7 +13,8 @@ int main(){
         else if(P0_4 == 0){
             value = 3;
         }
-        P0 = 0b01111011;
+
+    P0 = 0b01111011; ///P0_2 = 0
         if(P0_6 == 0){
             value = 4;
         }
@@ -23,7 +24,7 @@ int main(){
         else if(P0_4 == 0){
             value = 6;
         }
-        P0 = 0b011111101;
+    P0 = 0b011111101;
         if(P0_6 == 0){
             value = 7;
         }
@@ -33,7 +34,7 @@ int main(){
         else if(P0_4 == 0){
             value = 9;
         }
-        P0 = 0b011111110;
+    P0 = 0b011111110;
         if(P0_5 == 0)
             value = 0;
     while(1){
