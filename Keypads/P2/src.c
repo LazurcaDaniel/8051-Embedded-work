@@ -114,12 +114,12 @@ int main() {
     while (1) {
         printKey(j, keys[j]);
 
-        P0_7 = 1;
+        P0_7 = 1; ////opresc display
         j++;
         if (j == 4) {
             j = 0;
         }
-        P0_7 = 0;
+        P0_7 = 0; ///pornesc display
     }
 
     return 0;
